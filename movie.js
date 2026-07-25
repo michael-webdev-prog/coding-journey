@@ -6,7 +6,8 @@ const apiKey = "7a51f911";
 
 searchMovie.addEventListener("click", function () {
     
-    const movie = movieInput.value;
+    
+    const movie = movieInput.value.trim();
     
     if (movie === "") {
         movieResult.innerHTML = "Please enter a movie name.";

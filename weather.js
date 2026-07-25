@@ -5,8 +5,9 @@ const weatherResult = document.getElementById("weatherResult");
 const apiKey = "b486b737f7363741c9fd4114179651a6";
 
 searchButton.addEventListener("click", function () {
-
-    const city = cityInput.value;
+    
+    
+    const city = cityInput.value.trim();
 
     if (city === "") {
         weatherResult.innerHTML = "Please enter a city.";

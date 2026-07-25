@@ -10,8 +10,6 @@ addTask.addEventListener("click", function () {
 
 const newTask = document.createElement("li");
 
-newTask.textContent = taskInput.value;
-
 newTask.textContent = taskInput.value + " ";
 
 const deleteButton = document.createElement("button");
