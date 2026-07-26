@@ -994,3 +994,198 @@ footer p{
 .delete-btn:hover{
     background:#b91c1c;
 }
+
+/* ==========================
+   E-COMMERCE PRODUCT CATALOG
+========================== */
+
+.shop-container{
+    max-width:1200px;
+    margin:auto;
+    padding:40px 20px;
+}
+
+.shop-container h1{
+    text-align:center;
+    color:#1e3a8a;
+    margin-bottom:30px;
+}
+
+#search{
+    width:100%;
+    padding:15px;
+    font-size:18px;
+    border-radius:10px;
+    border:none;
+    margin-bottom:40px;
+}
+
+.products-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:30px;
+}
+
+.product-card{
+
+    background:white;
+
+    border-radius:15px;
+
+    overflow:hidden;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.12);
+
+    transition:.3s;
+
+}
+
+.product-card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 20px 35px rgba(0,0,0,.18);
+
+}
+
+.product-card:hover{
+    transform:translateY(-8px);
+}
+
+.product-card img{
+
+    width:100%;
+
+    height:220px;
+
+    object-fit:cover;
+
+    transition:.3s;
+
+}
+
+.product-card:hover img{
+
+    transform:scale(1.05);
+
+}
+
+.product-card h3{
+    margin:15px 0;
+}
+
+.product-card p{
+    margin:10px;
+}
+
+.price{
+    color:green;
+    font-size:22px;
+    font-weight:bold;
+}
+
+.buy-btn{
+    margin:20px;
+    padding:12px 25px;
+    background:#1e3a8a;
+    color:white;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+.buy-btn:hover{
+    background:#2563eb;
+}
+
+/* SHOPPING CART */
+
+.cart-container{
+    max-width:700px;
+    margin:50px auto;
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 10px 25px rgba(0,0,0,.12);
+}
+
+.cart-container h2{
+    margin-bottom:20px;
+}
+
+#cart{
+    list-style:none;
+    padding:0;
+}
+
+#cart li{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 0;
+    border-bottom:1px solid #ddd;
+}
+
+#cart button{
+    background:#dc3545;
+    color:white;
+    border:none;
+    padding:8px 14px;
+    border-radius:6px;
+    cursor:pointer;
+    font-size:14px;
+}
+
+#cart button:hover{
+    background:#b02a37;
+}
+
+.cart-total{
+    text-align:right;
+    margin-top:25px;
+    color:#23408e;
+}
+
+/* CATEGORY FILTERS */
+
+.filter-buttons{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:15px;
+
+    flex-wrap:wrap;
+
+    margin:30px 0;
+
+}
+
+.filter-buttons button{
+
+    background:#23408e;
+
+    color:white;
+
+    border:none;
+
+    padding:12px 25px;
+
+    border-radius:30px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+    font-size:16px;
+
+}
+
+.filter-buttons button:hover{
+
+    background:#1a2f6b;
+
+    transform:translateY(-3px);
+
+}
