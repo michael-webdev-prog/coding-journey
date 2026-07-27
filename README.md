@@ -21,6 +21,14 @@ I am a Frontend Web Developer based in Ottawa, Ontario, Canada. I enjoy building
 - REST APIs
 - GitHub Pages
 - Visual Studio Code
+## 💡 Skills
+
+- Responsive Web Design
+- API Integration
+- DOM Manipulation
+- Local Storage
+- Git Version Control
+- Problem Solving
 
 ---
 
