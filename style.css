@@ -1189,3 +1189,8 @@ footer p{
     transform:translateY(-3px);
 
 }
+.project-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
